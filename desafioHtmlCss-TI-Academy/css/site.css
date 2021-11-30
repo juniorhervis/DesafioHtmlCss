@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: Helvetica;
+  color: #fff;
+  width: 100%;
+  height: 80%;
+  margin: 15px;
+  padding: 15px 20px 15px 20px;
+}
+
+a#contato:hover {
+  background-color: red;
+  width: 100%;
+}
+
+a#home {
+  border-radius: 20px;
+  background-color: #f9a825;
+  padding: 15px 30px 15px 30px;
+}
+
+.icons-list {
+  margin-right: 2px;
+  font-size: 1.5rem;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center-xy {
+  align-items: center;
+  justify-content: center;
+}
+
+header#top-header h1,
+header#top-header nav {
+  width: 100%;
+  height: 40px;
+  background-color: #212121;
+}
+
+header#top-header h1 {
+  width: 40%;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: clamp(1.5rem, 2.2vh, 3rem);
+  padding: 3px 0px 3px 0px;
+}
+
+header#top-header nav#menu ul#list-menu {
+  width: 80%;
+  justify-content: flex-end;
+}
+
+nav#menu ul#list-menu li.item {
+  width: 130px;
+}
+
+.pontilhado {
+  border-right: 1px dashed #0000;
+}
+
+p#paragrafo {
+  width: 100%;
+  height: auto;
+  background-color: #fafafa;
+  font-family: Helvetica;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+}
+
+div.box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div #pontilhado p {
+  width: 300px;
+  height: 200px;
+  border-right: 1px dashed #000;
+}
+
+section #email {
+  background-color: rgba(194, 186, 186, 0.5);
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  
+}
+
+.btn {
+  padding: 5px;
+  width: 100px;
+  margin-top: 5px;
+  border-radius: 3px;
+  border: none;
+  background-color: #f9a825;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer #rodapé {
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Helvetica;
+}
